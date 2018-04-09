@@ -5,7 +5,29 @@
   <title>webpack</title>
 </head>
 <body>
-  webpack
+  
+  <div style="height: 100px;position: relative;">
+    <div id="word" style="width: 250px;margin: 0 auto;background: #030;position: absolute;top: 50%;transform: translateY(-50%)">
+      文字用于撑开元素
+    </div>
+  </div>
+  
   <script src="./dist/my-first-webpack.bundle.js"></script>
+  <script>
+    //  var addUser = function (){
+    //   console.info('html');
+    // }
+
+    // var result = addUser();
+    // console.info(result);
+    
+    var str = 'h5cource';
+    function args(s)
+      return function(){
+        console.info(s);
+      }
+    }
+    var result = args(str);
+  </script>
 </body>
 </html>

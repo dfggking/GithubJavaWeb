@@ -1,0 +1,8 @@
+/**
+ * dfggutil.js
+ *
+ */
+(function(){
+
+})();
+

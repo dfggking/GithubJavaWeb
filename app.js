@@ -1,5 +1,4 @@
-import bar from './bar'
-import txt from './file.txt'
-bar();
+import dfggutil from './dfggutil';
 
-console.info(txt);
+
+
